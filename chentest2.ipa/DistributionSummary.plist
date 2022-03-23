@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chentest2.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>80518E27FBBEE81239CF348F5D06F6E23A62DC9C</string>
+				<key>dateExpires</key>
+				<string>2023/2/16</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>GSXUM7XCBA.com.firstdis.chentest4</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>www.qq.com</string>
+				</array>
+				<key>com.apple.developer.in-app-payments</key>
+				<array/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>GSXUM7XCBA</string>
+				<key>com.apple.security.application-groups</key>
+				<array>
+					<string>group.com.firstgroup.chentest</string>
+				</array>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>chentest2.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>fc618b06-2d78-4fbf-83a2-9fbe60c11867</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.firstdis.chentest4</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>GSXUM7XCBA</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
