@@ -2,19 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>compileBitcode</key>
-	<true/>
 	<key>destination</key>
 	<string>export</string>
 	<key>method</key>
-	<string>development</string>
+	<string>app-store</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.tencent.chentest6</key>
+		<string>com.tencent.chentest6_Production_SignProvision</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>Apple Distribution: Tencent Technology (Shanghai) Co., Ltd (FN2V63AD2J)</string>
 	<key>signingStyle</key>
-	<string>automatic</string>
+	<string>manual</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>GSXUM7XCBA</string>
-	<key>thinning</key>
-	<string>&lt;none&gt;</string>
+	<string>9TV4ZYSS4J</string>
+	<key>uploadBitcode</key>
+	<false/>
+	<key>uploadSymbols</key>
+	<false/>
 </dict>
 </plist>
